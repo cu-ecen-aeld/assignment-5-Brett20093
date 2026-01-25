@@ -1,0 +1,7 @@
+
+config BR2_PACKAGE_AESD_LLD
+	bool "aesd-lld"
+	select BR2_LINUX_KERNEL_MODULES
+	help
+	  Includes the writer executable, finder.sh and tester.sh in the kernel image.
+	  Used to understand buildroot external trees and package builds.
